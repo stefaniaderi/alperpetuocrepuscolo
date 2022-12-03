@@ -118,7 +118,7 @@ img {
 }
 
 body {
-	background:linear-gradient(0deg, blue 36%, rgba(138,114,79,1) 55%, blue 72%);
+	background: linear-gradient(0deg, blue 20%, rgba(138,114,79,1) 52%, blue 83%);
 	padding: var(--padding);
 	max-width: 100rem;
 	margin: 0 auto;
