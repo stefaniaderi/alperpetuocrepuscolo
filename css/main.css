@@ -208,7 +208,7 @@ h5, h6 {
 }
 
 .header{
-	padding-right: 1rem !important; */
+	padding-right: 1rem !important; 
 	background-color: var(--color-primary);
 	color: var(--color-white);
 	margin: -1rem;
