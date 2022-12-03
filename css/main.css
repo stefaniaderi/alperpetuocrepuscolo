@@ -191,3 +191,14 @@ h5, h6 {
   line-height: inherit;
 }
 
+.footer{
+	background-color: var(--color-primary);
+	color: var(--color-white);
+	padding: 0 var(--padding);
+	margin: -1rem;
+	position: sticky;
+	z-index: 103;
+	margin-top: 1rem;
+	font-size: var(--font-small);
+	line-height: 140%;
+}
