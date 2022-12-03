@@ -266,14 +266,22 @@ h5, h6 {
   background-repeat: no-repeat;
   transform: rotate(180deg);
   right: var(--padding);
+}
 
-@media  screen and (max-width: 800px){
-  :root{
+@media screen and (max-width: 800px){
+    :root{
     --header-height:50px;
-    --header-open:100%;}
+    --header-open:100%;
+	}
     .header{
     	height: var(--header-height);
     }
-    h1{
-    	font-size:2rem;
+    .header h1{
+    	font-size:1rem !important;
+    	font-weight: 500;
+
     }
+   .grid p{
+   	grid-column: 1 / 8;
+   }
+}
