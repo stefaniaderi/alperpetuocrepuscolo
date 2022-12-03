@@ -90,7 +90,7 @@
   --font-family-titles: Inter , sans-serif;
   --font-family-sans: Inter, sans-serif;
   --font-small: 0.65rem;
-  --border: 1px solid var(--color-primary);
+  --border: 1px solid var(--color-white);
   --x:0px;
   --y:0px;
   --header-height:11rem;
@@ -169,7 +169,7 @@ h2{
   font-family: var(--font-family-titles);
   font-weight: 600;
   font-size: 2rem;
-  color: var(--color-primary);
+  color: var(--color-white);
   line-height: 110%;
 
 }
@@ -236,7 +236,7 @@ h5, h6 {
 	width: 100%;
 }
 .menu li{
-	border-bottom: 1px solid var(--color-white);
+	border-bottom: var(--border);
 }
 .footer{
 	background-color: var(--color-primary);
@@ -292,18 +292,18 @@ h5, h6 {
 	grid-column: 1 / 6;
     width: 100%;
     padding-top: var(--padding);
-    border-top: 1px solid var(--color-primary);
+    border-top: var(--border);
 }
 .subcontent{
 	grid-column: 6 / 9;
     width: 100%;
     padding-top: var(--padding);
-    border-top: 1px solid var(--color-primary);
+    border-top:var(--border);
 }
 .subcontent li{
 	font-size:2rem;
 	line-height: 120%;
-	border-bottom: 1px solid var(--color-primary);
+	border-bottom: var(--border));
 }
 @media screen and (max-width: 800px){
     :root{
