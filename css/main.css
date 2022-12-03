@@ -318,6 +318,12 @@ h5, h6 {
    .grid p{
    	grid-column: 1 / 8;
    }
+   .title{
+   	grid-column: 1 / 6;
+   }
+   .menu {
+   	grid-column: 6 / 9;
+   }
    .content{
 		grid-column: 1 / 9;
 	}
