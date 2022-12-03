@@ -283,7 +283,11 @@ h5, h6 {
   transform: rotate(180deg);
   right: var(--padding);
 }
-
+.content{
+	width: 100%;
+	padding-top: var(--padding);
+	border-top: 1px solid var(-color-primary);
+}
 @media screen and (max-width: 800px){
     :root{
     --header-height:50px;
