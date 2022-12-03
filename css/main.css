@@ -107,7 +107,7 @@ html {
 }
 
 main{
-	margin-top: calc(var(--header-height) + 2 * var(--padding));
+	margin-top: calc(var(--header-height));
 
 }
 
@@ -307,7 +307,7 @@ h5, h6 {
 }
 @media screen and (max-width: 800px){
     :root{
-    --header-height:50px;
+    --header-height:80px;
     --header-open:100%;
 	}
     .header{
