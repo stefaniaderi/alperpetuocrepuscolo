@@ -89,7 +89,7 @@
   --font-family-body: Inter , sans-serif;
   --font-family-titles: Inter , sans-serif;
   --font-family-sans: Inter, sans-serif;
-  --font-small: 0.8rem;
+  --font-small: 0.65rem;
   --border: 1px solid var(--color-primary);
   --x:0px;
   --y:0px;
@@ -179,8 +179,7 @@ h3{
 }
 
 h4{ 
-   font-weight: 400;
-   color:var(--color-primary);
+   font-weight: 600;
    font-size: var(--font-small);
 }
 
@@ -195,8 +194,9 @@ h5, h6 {
 	color: var(--color-white);
 	padding: var(--padding);
 	margin: -1rem;
-	position: fixed;
+	position: sticky;
 	line-height: 140%;
+	width: 100%;
 }
 .header a{
 	color: var(--color-white);
@@ -223,4 +223,13 @@ h5, h6 {
 	margin-top: 1rem;
 	font-size: var(--font-small);
 	line-height: 140%;
+}
+
+.footer .grid {
+  grid-template-columns: repeat(8, 1fr);
+  --columns: 2;
+}
+
+.footer a{
+	color: var(--color-white);
 }
