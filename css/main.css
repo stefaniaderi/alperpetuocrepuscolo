@@ -192,6 +192,21 @@ h5, h6 {
   font-weight: inherit;
   line-height: inherit;
 }
+.grid {
+  --columns: 8;
+  --gutter: var(--padding);
+  display: grid;
+  grid-gap: var(--gutter);
+  grid-template-columns: repeat(8, 1fr);
+}
+.grid > .column {
+  margin-bottom: 1rem;
+  grid-column: span var(--columns);
+} 
+.grid p{
+	grid-column: 1 / 6;
+}
+
 .header{
 	background-color: var(--color-primary);
 	color: var(--color-white);
@@ -206,18 +221,8 @@ h5, h6 {
 .header a{
 	color: var(--color-white);
 }
-.grid {
-  --columns: 8;
-  --gutter: var(--padding);
-  display: grid;
-  grid-gap: var(--gutter);
-  grid-template-columns: repeat(8, 1fr);
-}
-.grid > .column {
-  margin-bottom: 1rem;
-  grid-column: span var(--columns);
-} 
-.grid p{
+
+.grid h1{
 	grid-column: 1 / 6;
 }
 .footer{
