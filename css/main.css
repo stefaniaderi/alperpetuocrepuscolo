@@ -193,9 +193,13 @@ h5, h6 {
 .header{
 	background-color: var(--color-primary);
 	color: var(--color-white);
-	position: sticky;
-	margin-top: 1rem;
+	padding: var(--padding);
+	margin: -1rem;
+	position: fixed;
 	line-height: 140%;
+}
+.header a{
+	color: var(--color-white);
 }
 .grid {
   --columns: 8;
