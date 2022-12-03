@@ -190,6 +190,17 @@ h5, h6 {
   font-weight: inherit;
   line-height: inherit;
 }
+.grid {
+  --columns: 8;
+  --gutter: var(--padding);
+  display: grid;
+  grid-gap: var(--gutter);
+  grid-template-columns: repeat(8, 1fr);
+}
+.grid > .column {
+  margin-bottom: 1rem;
+  grid-column: span var(--columns);
+} 
 
 .footer{
 	background-color: var(--color-primary);
