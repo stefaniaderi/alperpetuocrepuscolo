@@ -268,7 +268,7 @@ h5, h6 {
   z-index: 103;
   border: var(--border);
   outline: none;
-  background-color: var(--color-white);
+  background-color: var(--color-primary);
   color: var(--color-grey);
   cursor: pointer;
   padding: var(--padding);
@@ -277,11 +277,12 @@ h5, h6 {
   transition: var(--transition);
   content: "";
   align-content: center;
-  background-image: url(../icons/icon_dropdown_arrow.svg);
+  background-image: url(../images/icon_dropdown_arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
   transform: rotate(180deg);
   right: var(--padding);
+  filter: blur(9px);
 }
 
 
