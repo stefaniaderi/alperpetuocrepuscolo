@@ -158,7 +158,7 @@ hr {
 
 h1{
   font-family: var(--font-family-titles);
-  font-weight:400;
+  font-weight:300;
   font-size: 4.25rem;
   line-height: 100%;
 }
