@@ -158,8 +158,8 @@ hr {
 
 h1{
   font-family: var(--font-family-titles);
-  font-weight:600;
-  font-size: 3.25rem;
+  font-weight:500;
+  font-size: 4.25rem;
   line-height: 100%;
 }
 h2{
