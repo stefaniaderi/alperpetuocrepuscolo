@@ -222,9 +222,13 @@ h5, h6 {
 	color: var(--color-white);
 }
 
-.grid h1{
-	grid-column: 1 / 6;
+.title{
+	grid-column: 1 / 7;
 }
+.menu{
+	grid-column: 7 / 9;
+}
+
 .footer{
 	background-color: var(--color-primary);
 	color: var(--color-white);
