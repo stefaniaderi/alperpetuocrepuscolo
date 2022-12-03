@@ -318,4 +318,11 @@ h5, h6 {
    .grid p{
    	grid-column: 1 / 8;
    }
+   .content{
+		grid-column: 1 / 9;
+	}
+	.subcontent{
+		grid-column: 1 / 9;
+
+	}
 }
