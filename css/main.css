@@ -286,11 +286,23 @@ h5, h6 {
 .grid :first-child{
 	border:none;
 }
+
 .content{
 	grid-column: 1 / 6;
     width: 100%;
     padding-top: var(--padding);
     border-top: 1px solid var(--color-primary);
+}
+.subcontent{
+	grid-column: 6 / 9;
+    width: 100%;
+    padding-top: var(--padding);
+    border-top: 1px solid var(--color-primary);
+}
+.subcontent li{
+	font-size:2rem;
+	line-height: 120%;
+	border-bottom: 1px solid var(--color-primary);
 }
 @media screen and (max-width: 800px){
     :root{
