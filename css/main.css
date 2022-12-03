@@ -283,9 +283,7 @@ h5, h6 {
   transform: rotate(180deg);
   right: var(--padding);
 }
-.grid :first-child{
-	border:none;
-}
+
 
 .content{
 	grid-column: 1 / 6;
