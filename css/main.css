@@ -338,5 +338,6 @@ h5, h6 {
 	}
 }
 .small{
+	vertical-align: super;
 	font-size: var(--font-small);
 }
