@@ -79,18 +79,18 @@
 
 :root {
   --padding: 1rem;
-  --color-black: black;
+  --color-primary: blue;
   --color-white: white;
   --color-grey: #9f9f9f;
   --color-light: silver;
   --color-highlight: #C83737;
-  --color-text: var(--color-black);
+  --color-text: var(--color-primary);
   --color-background: var(--color-white);
   --font-family-body: Inter , sans-serif;
   --font-family-titles: Inter , sans-serif;
   --font-family-sans: Inter, sans-serif;
   --font-small: 0.8rem;
-  --border: 1px solid var(--color-black);
+  --border: 1px solid var(--color-primary);
   --x:0px;
   --y:0px;
   --header-height:2rem;
@@ -131,7 +131,7 @@ li {
 
 a {  
   font-family: var(--font-family-sans);
-  color: var(--color-grey);
+  color: var(--color-primary);
   text-decoration: none;
   /*font-weight: 600;*/
   text-underline-offset: 0.3rem;
@@ -166,7 +166,7 @@ h2{
   font-family: var(--font-family-titles);
   font-weight: 600;
   font-size: 2rem;
-  color: var(--color-black);
+  color: var(--color-primary);
   line-height: 110%;
 
 }
@@ -175,12 +175,12 @@ h3{
   font-weight:600;
   line-height: 150%;
   font-size: var(--font-small);
-  color: var(--color-black);
+  color: var(--color-primary);
 }
 
 h4{ 
    font-weight: 400;
-   color:var(--color-black);
+   color:var(--color-primary);
    font-size: var(--font-small);
 }
 
