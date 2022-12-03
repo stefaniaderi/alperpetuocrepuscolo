@@ -190,6 +190,13 @@ h5, h6 {
   font-weight: inherit;
   line-height: inherit;
 }
+.header{
+	background-color: var(--color-primary);
+	color: var(--color-white);
+	position: sticky;
+	margin-top: 1rem;
+	line-height: 140%;
+}
 .grid {
   --columns: 8;
   --gutter: var(--padding);
