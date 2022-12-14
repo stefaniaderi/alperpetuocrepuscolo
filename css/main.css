@@ -345,10 +345,10 @@ h5, h6 {
 @media print{
 	*{
 		background-color: var(--color-white);
-		color: darkgrey;
+		color: black;
 	}
 	a [href^="http:"] :: after{
 		content: "["attr(href)"]";
-		color: var(--color-primary);
+		color: black;
 	}
 }
