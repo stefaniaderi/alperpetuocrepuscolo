@@ -345,7 +345,7 @@ h5, h6 {
 @media print{
 	::root{
 		  --border: 1px solid black;
-		};
+		}
 	*{
 		background-color: var(--color-white);
 		color: black;
