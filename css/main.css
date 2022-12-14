@@ -357,6 +357,9 @@ h5, h6 {
 	.header{
 		position:relative;
 	}
+	main{
+		margin-top: 0px;
+	}
 	h1{
 		font-size: 2rem;
 	}
