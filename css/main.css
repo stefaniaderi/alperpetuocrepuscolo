@@ -350,6 +350,12 @@ h5, h6 {
 		background-color: var(--color-white);
 		color: black;
 	}
+	@page{
+		margin: .5cm;
+	}
+	@page:first{
+		margin-top: 0.2cm;
+	}
 	a [href^="http:"] :: after{
 		content: "["attr(href)"]";
 		color: black;
@@ -365,5 +371,12 @@ h5, h6 {
 	}
 	.subcontent li{
 		font-size: 1.5rem ;
+	}
+	h2, ul{
+		page-break-after: avoid;
+	}
+	p {
+		orphans: 3;
+		widows: 3;
 	}
 }
