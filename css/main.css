@@ -343,7 +343,7 @@ h5, h6 {
 }
 
 @media print{
-	::root{
+	:root{
 		  --border: 1px solid black;
 		}
 	*{
@@ -355,7 +355,7 @@ h5, h6 {
 		color: black;
 	}
 	h1{
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 	.subcontent{
 		font-size: 1rem;
