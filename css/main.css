@@ -360,7 +360,7 @@ h5, h6 {
 	h1{
 		font-size: 2rem;
 	}
-	.subcontent{
-		font-size: 1.5rem;
+	.subcontent li{
+		font-size: 1.5rem ;
 	}
 }
