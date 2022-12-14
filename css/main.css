@@ -341,3 +341,14 @@ h5, h6 {
 	vertical-align: super;
 	font-size: var(--font-small);
 }
+
+@media print{
+	*{
+		background-color: var(--color-white);
+		color: darkgrey;
+	}
+	a [href^="http:"] :: after{
+		content: "["attr(href)"]";
+		color: var(--color-primary);
+	}
+}
