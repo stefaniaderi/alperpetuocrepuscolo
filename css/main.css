@@ -358,7 +358,7 @@ h5, h6 {
 		position:relative;
 	}
 	main{
-		margin-top: 0px;
+		margin-top: var(--padding);
 	}
 	h1{
 		font-size: 2rem;
